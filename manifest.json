@@ -1,7 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Close duplicate tabs",
-  "version": "0.2",
+  "name": "radhta-fork close duplicate tabs",
+  "version": "0.3",
+  "homepage_url": "https://github.com/radhta/tab-closer",
+  "applications": {
+    "gecko": {
+      "id": "tab-closer@radhta"
+    }
+  },
   "browser_action": {
       "default_title": "Close duplicate tabs",
       "default_icon": {
@@ -20,3 +26,4 @@
       "tabs"
   ]
 }
+
